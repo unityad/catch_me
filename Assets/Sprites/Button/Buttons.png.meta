@@ -1,0 +1,475 @@
+fileFormatVersion: 2
+guid: 0f622e788d7c8b94faa45d0b4ad21e0e
+timeCreated: 1498661967
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Buttons_0
+    21300002: Buttons_1
+    21300004: Buttons_2
+    21300006: Buttons_3
+    21300008: Buttons_4
+    21300010: Buttons_5
+    21300012: Buttons_6
+    21300014: Buttons_7
+    21300016: Buttons_8
+    21300018: Buttons_9
+    21300020: Buttons_10
+    21300022: Buttons_11
+    21300024: Buttons_12
+    21300026: Buttons_13
+    21300028: Buttons_14
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Buttons_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 391
+        width: 84
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Buttons_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 391
+        width: 84
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Buttons_2
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 391
+        width: 85
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Buttons_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 391
+        width: 84
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Buttons_4
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 391
+        width: 85
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Buttons_5
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 391
+        width: 85
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Buttons_6
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 391
+        width: 157
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Buttons_7
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 391
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Buttons_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 81
+        width: 303
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Buttons_9
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 166
+        width: 181
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Buttons_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 175
+        width: 172
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Buttons_11
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 175
+        width: 172
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Buttons_12
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 82
+        width: 276
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Buttons_13
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 81
+        width: 276
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Buttons_14
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 11
+        width: 276
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline:
+    - - {x: -2.5, y: -174}
+      - {x: -2.5, y: -242}
+      - {x: 277.5, y: -242}
+      - {x: 277.5, y: -174}
+      - {x: 275.5, y: -172}
+      - {x: -0.5, y: -172}
+    - - {x: -466.5, y: 125}
+      - {x: -467.5, y: 123}
+      - {x: -467.5, y: -172}
+      - {x: -160.5, y: -172}
+      - {x: -160.5, y: 125}
+    - - {x: 142.5, y: -102}
+      - {x: 142.5, y: -170}
+      - {x: 144.5, y: -172}
+      - {x: 420.5, y: -172}
+      - {x: 422.5, y: -170}
+      - {x: 422.5, y: -102}
+    - - {x: -138.5, y: -101}
+      - {x: -138.5, y: -169}
+      - {x: -136.5, y: -171}
+      - {x: 139.5, y: -171}
+      - {x: 141.5, y: -169}
+      - {x: 141.5, y: -101}
+    - - {x: 26.5, y: 43}
+      - {x: -7.5, y: 86}
+      - {x: -36.5, y: 98}
+      - {x: -90.5, y: 98}
+      - {x: -123.5, y: 89}
+      - {x: -156.5, y: 41}
+      - {x: -156.5, y: -20}
+      - {x: -143.5, y: -58}
+      - {x: -95.5, y: -87}
+      - {x: -25.5, y: -87}
+      - {x: 16.5, y: -51}
+      - {x: 28.5, y: -24}
+      - {x: 28.5, y: 24}
+    - - {x: 206.5, y: 58}
+      - {x: 181.5, y: 85}
+      - {x: 159.5, y: 98}
+      - {x: 101.5, y: 98}
+      - {x: 87.5, y: 97}
+      - {x: 68.5, y: 79}
+      - {x: 42.5, y: 55}
+      - {x: 39.5, y: 29}
+      - {x: 39.5, y: -21}
+      - {x: 52.5, y: -45}
+      - {x: 84.5, y: -71}
+      - {x: 104.5, y: -78}
+      - {x: 146.5, y: -78}
+      - {x: 166.5, y: -76}
+      - {x: 200.5, y: -52}
+      - {x: 215.5, y: -17}
+      - {x: 215.5, y: 30}
+    - - {x: 402.5, y: 32}
+      - {x: 395.5, y: 60}
+      - {x: 368.5, y: 85}
+      - {x: 342.5, y: 98}
+      - {x: 273.5, y: 98}
+      - {x: 229.5, y: 55}
+      - {x: 226.5, y: 32}
+      - {x: 226.5, y: -15}
+      - {x: 240.5, y: -44}
+      - {x: 255.5, y: -60}
+      - {x: 283.5, y: -78}
+      - {x: 340.5, y: -78}
+      - {x: 352.5, y: -74}
+      - {x: 387.5, y: -52}
+      - {x: 402.5, y: -21}
+    - - {x: -48.5, y: 59}
+      - {x: -118.5, y: 18}
+      - {x: -125.5, y: -8}
+      - {x: -127.5, y: -15}
+      - {x: -127.5, y: -25}
+      - {x: -106.5, y: -56}
+      - {x: -64.5, y: -56}
+      - {x: -14.5, y: -1}
+      - {x: -14.5, y: 59}
+    - - {x: 157.5, y: 62}
+      - {x: 157.5, y: 68}
+      - {x: 149.5, y: 68}
+      - {x: 56.5, y: 13}
+      - {x: 56.5, y: 8}
+      - {x: 57.5, y: 6}
+      - {x: 151.5, y: -48}
+      - {x: 155.5, y: -48}
+      - {x: 157.5, y: -47}
+      - {x: 157.5, y: -43}
+      - {x: 154.5, y: -36}
+      - {x: 131.5, y: 0}
+      - {x: 132.5, y: 17}
+    - - {x: 291.5, y: 68}
+      - {x: 286.5, y: 68}
+      - {x: 284.5, y: 67}
+      - {x: 284.5, y: 61}
+      - {x: 313.5, y: 8}
+      - {x: 285.5, y: -39}
+      - {x: 284.5, y: -43}
+      - {x: 284.5, y: -48}
+      - {x: 290.5, y: -48}
+      - {x: 385.5, y: 7}
+      - {x: 385.5, y: 11}
+      - {x: 384.5, y: 14}
+    - - {x: -69.5, y: 19}
+      - {x: -73.5, y: 17}
+      - {x: -73.5, y: 1}
+      - {x: -68.5, y: -1}
+      - {x: -54.5, y: -1}
+      - {x: -53.5, y: 0}
+      - {x: -53.5, y: 16}
+      - {x: -54.5, y: 19}
+    - - {x: -459.5, y: 247}
+      - {x: -461.5, y: 245}
+      - {x: -461.5, y: 234}
+      - {x: -459.5, y: 232}
+      - {x: -430.5, y: 140}
+      - {x: -428.5, y: 138}
+      - {x: -403.5, y: 138}
+      - {x: -373.5, y: 220}
+      - {x: -373.5, y: 245}
+      - {x: -374.5, y: 247}
+    - - {x: -289.5, y: 170}
+      - {x: -295.5, y: 196}
+      - {x: -318.5, y: 247}
+      - {x: -347.5, y: 247}
+      - {x: -358.5, y: 225}
+      - {x: -377.5, y: 161}
+      - {x: -377.5, y: 140}
+      - {x: -375.5, y: 138}
+      - {x: -354.5, y: 138}
+      - {x: -352.5, y: 140}
+      - {x: -344.5, y: 138}
+      - {x: -289.5, y: 138}
+    - - {x: -194.5, y: 240}
+      - {x: -203.5, y: 247}
+      - {x: -283.5, y: 247}
+      - {x: -283.5, y: 138}
+      - {x: -259.5, y: 138}
+      - {x: -257.5, y: 140}
+      - {x: -194.5, y: 189}
+    - - {x: -157.5, y: 245}
+      - {x: -157.5, y: 234}
+      - {x: -155.5, y: 232}
+      - {x: -126.5, y: 140}
+      - {x: -124.5, y: 138}
+      - {x: -92.5, y: 138}
+      - {x: -69.5, y: 220}
+      - {x: -69.5, y: 247}
+      - {x: -155.5, y: 247}
+    - - {x: -63.5, y: 147}
+      - {x: -62.5, y: 140}
+      - {x: -60.5, y: 138}
+      - {x: 23.5, y: 138}
+      - {x: 25.5, y: 139}
+      - {x: 25.5, y: 246}
+      - {x: 14.5, y: 247}
+      - {x: -51.5, y: 247}
+      - {x: -63.5, y: 238}
+    - - {x: 164.5, y: 247}
+      - {x: 82.5, y: 247}
+      - {x: 82.5, y: 140}
+      - {x: 84.5, y: 138}
+      - {x: 106.5, y: 138}
+      - {x: 109.5, y: 139}
+      - {x: 171.5, y: 188}
+      - {x: 171.5, y: 239}
+    - - {x: 338.5, y: 138}
+      - {x: 338.5, y: 196}
+      - {x: 337.5, y: 202}
+      - {x: 306.5, y: 247}
+      - {x: 280.5, y: 247}
+      - {x: 269.5, y: 225}
+      - {x: 250.5, y: 164}
+      - {x: 203.5, y: 245}
+      - {x: 201.5, y: 247}
+      - {x: 179.5, y: 247}
+      - {x: 177.5, y: 245}
+      - {x: 177.5, y: 140}
+      - {x: 179.5, y: 138}
+      - {x: 273.5, y: 138}
+      - {x: 275.5, y: 140}
+      - {x: 314.5, y: 138}
+    - - {x: 441.5, y: 247}
+      - {x: 334.5, y: 247}
+      - {x: 334.5, y: 207}
+      - {x: 343.5, y: 149}
+      - {x: 363.5, y: 138}
+      - {x: 431.5, y: 138}
+      - {x: 443.5, y: 215}
+      - {x: 443.5, y: 245}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
