@@ -78,10 +78,16 @@ public class PlayerControl : Photon.MonoBehaviour
         if (move > 0 && !facingRight)
         {
             flip();
+            myAnim.SetBool("walk", true);
         }
         else if (move < 0 && facingRight)
         {
             flip();
+            myAnim.SetBool("walk", true);
+        }
+        else if(move==0)
+        {
+            myAnim.SetBool("walk", false);
         }
         if (Input.GetKey(KeyCode.Space))
         {
