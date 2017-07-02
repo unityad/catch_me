@@ -6,8 +6,17 @@ public class PlayerControl : MonoBehaviour {
 
     public float maxSpeed;
     public float jumpHeight;
+
     bool facingRight;
     bool grounded;
+
+    //Shoot
+
+    public Transform gunTip;
+    public GameObject bullet;
+    float fireRate = 0.5f;
+    float nextFire = 0;
+
 
     Rigidbody2D myBody;
     Animator myAnim;
@@ -27,8 +36,18 @@ public class PlayerControl : MonoBehaviour {
     void FixedUpdate()
     {
         MoveKeyBoard();
+       
 
     }
+    //void FireByKeyboard()
+    //{
+    //    if (Input.GetAxisRaw("Fire1")>0)
+    //    {
+    //        fireBullet();
+    //    }
+
+    //}
+   
     void MoveKeyBoard()
     {
         float move = Input.GetAxis("Horizontal");
@@ -52,6 +71,11 @@ public class PlayerControl : MonoBehaviour {
                 myBody.velocity = new Vector2(myBody.velocity.x, jumpHeight);
             }
         }
+        if (Input.GetAxisRaw("Fire1") > 0)
+        {
+            fireBullet();
+        }
+        //FireByKeyboard();
     }
     void flip()
     {
@@ -67,6 +91,23 @@ public class PlayerControl : MonoBehaviour {
             grounded = true;
         }
     }
+    void fireBullet()
+    {
+        if (Time.time > nextFire)
+        {
+            nextFire = Time.time + fireRate;
+            if (facingRight)
+            {
+                Instantiate(bullet, gunTip.position, Quaternion.Euler(new Vector3(0, 0, 0)));
 
+            }
+            else if(!facingRight)
+            {
+                Instantiate(bullet, gunTip.position, Quaternion.Euler(new Vector3(0, 0, 180)));
+            }
+
+
+        }
+    }
 
 }

@@ -1,14 +1,13 @@
 fileFormatVersion: 2
-guid: d188ffd34cbd8544da62de5030f5328d
-timeCreated: 1498824755
+guid: 38c341cfc29680f4da9ada759761ee8f
+timeCreated: 1498962415
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: NonLaSperm_0
-    21300002: NonLaSperm_1
-    21300004: NonLaSperm_2
-    21300006: NonLaSperm_3
-    21300008: NonLaSperm_4
+    21300000: VNSopim_0
+    21300002: VNSopim_1
+    21300004: VNSopim_2
+    21300006: VNSopim_3
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -56,7 +55,7 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -64,7 +63,23 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: Standalone
-    maxTextureSize: 1024
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -75,65 +90,52 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NonLaSperm_0
+      name: VNSopim_0
       rect:
         serializedVersion: 2
-        x: 69
-        y: 308
-        width: 174
-        height: 151
+        x: 43
+        y: 304
+        width: 145
+        height: 149
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: NonLaSperm_1
+      name: VNSopim_1
       rect:
         serializedVersion: 2
-        x: 362
-        y: 312
-        width: 160
-        height: 148
+        x: 300
+        y: 307
+        width: 144
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: NonLaSperm_2
+      name: VNSopim_2
       rect:
         serializedVersion: 2
-        x: 66
-        y: 96
-        width: 170
-        height: 169
+        x: 67
+        y: 76
+        width: 142
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: NonLaSperm_3
+      name: VNSopim_3
       rect:
         serializedVersion: 2
-        x: 361
-        y: 104
-        width: 174
-        height: 158
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: NonLaSperm_4
-      rect:
-        serializedVersion: 2
-        x: 599
-        y: 253
-        width: 129
-        height: 53
+        x: 301
+        y: 67
+        width: 143
+        height: 161
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
