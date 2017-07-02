@@ -13,6 +13,7 @@ public class PlayerMoveJoystick : MonoBehaviour
     private bool grounded;
 
     private Rigidbody2D myBody;
+    [SerializeField]
     private Animator anim;
 
     private bool moveLeft, moveRight;
@@ -53,10 +54,9 @@ public class PlayerMoveJoystick : MonoBehaviour
         float forceX = 0f;
         float vel = Mathf.Abs(myBody.velocity.x);
         anim.SetFloat("Speed", Mathf.Abs(vel));
-
+        
         if (moveRight)
         {
-
             if (vel < maxVelocity)
             {
                 if (grounded)
